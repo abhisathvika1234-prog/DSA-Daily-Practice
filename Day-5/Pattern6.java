@@ -1,5 +1,5 @@
 import java.util.*;
-public class Pattern5 {
+public class Pattern6 {
     public static void main(String args[])
     {
     Scanner sc=new Scanner(System.in);
@@ -12,9 +12,11 @@ public class Pattern5 {
             }
             for(int k=0;k<i+1;k++)
             {
-                System.out.print("*");
+                System.out.print("* ");
             }
             System.out.println();
         }
    }
 }
+
+
