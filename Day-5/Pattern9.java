@@ -5,9 +5,9 @@ public class Pattern9 {
     {
         Scanner sc=new Scanner(System.in);
         int num=sc.nextInt();
-        for(int i=0;i<=num;i++)
+        for(int i=0;i<num;i++)
         {
-            for(int j=0;j<i;j++)
+            for(int j=0;j<num-i;j++)
             {
                 System.out.print("-");
             }
@@ -15,7 +15,7 @@ public class Pattern9 {
             {
                 System.out.print("*");
             }
-            for(int j=0;j<i;j++)
+            for(int j=0;j<i+1;j++)
             {
                 System.out.print("-");
             }
